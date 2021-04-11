@@ -1,5 +1,5 @@
-import { detectLanguage, LanguageDetector } from "~/language-detector";
-import { isEmpty, Maybe } from "~/utils";
+import { detectLanguage, LanguageDetector } from "../language-detector";
+import { isEmpty, Maybe } from "../utils";
 import { Locale } from "./type";
 
 export const determinateLocale = <T extends Record<string, Locale<any>>>(

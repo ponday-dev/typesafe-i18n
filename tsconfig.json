@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
     "target": "es5",
     "noEmit": true,
     "module": "esnext",
@@ -11,10 +10,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "declaration": true,
-    "declarationDir": "lib",
-    "paths": {
-      "~/*": ["src/*"]
-    }
+    "declarationDir": "lib"
   },
   "include": ["src/**/*.ts"]
 }

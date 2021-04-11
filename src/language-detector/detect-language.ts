@@ -1,5 +1,5 @@
 import { LanguageDetector } from "./detectors";
-import { Maybe } from "~/utils";
+import { Maybe } from "../utils";
 
 export const detectLanguage = (detectors: LanguageDetector | LanguageDetector[]): Maybe<string> => {
   if (Array.isArray(detectors)) {

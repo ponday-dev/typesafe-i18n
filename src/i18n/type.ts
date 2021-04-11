@@ -1,5 +1,5 @@
-import { Locale } from "~/locale";
-import { Keys, Maybe } from "~/utils";
+import { Locale } from "../locale";
+import { Keys, Maybe } from "../utils";
 
 export type InferLocaleObjectType<T> = T extends Locale<infer R> ? R : never;
 

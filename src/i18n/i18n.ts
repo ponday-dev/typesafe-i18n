@@ -1,5 +1,5 @@
-import { Locale } from "~/locale";
-import { Keys } from "~/utils";
+import { Locale } from "../locale";
+import { Keys } from "../utils";
 import { InferLocaleObjectType, II18n } from "./type";
 
 export class I18n<T extends Record<string, Locale<any>>, K extends keyof T> implements II18n<T, K> {

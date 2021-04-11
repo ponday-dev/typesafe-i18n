@@ -1,5 +1,5 @@
-import { LanguageDetector, detectLanguage } from "~/language-detector";
-import { determinateLocale, Locale } from "~/locale";
+import { LanguageDetector, detectLanguage } from "../language-detector";
+import { determinateLocale, Locale } from "../locale";
 import { I18n } from "./i18n";
 
 export interface CreateI18nOptions<T, K extends keyof T> {

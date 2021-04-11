@@ -1,5 +1,5 @@
 import { LocaleObject } from "./type";
-import { compress, Maybe } from "~/utils";
+import { compress, Maybe } from "../utils";
 
 export const createLocale = <T extends LocaleObject>(locale: T) => {
   const compressed: LocaleObject = compress(locale);

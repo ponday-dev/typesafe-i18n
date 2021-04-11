@@ -1,4 +1,4 @@
-import { Maybe } from "~/utils";
+import { Maybe } from "../utils";
 
 export type LocaleObject = Record<string, unknown>;
 
