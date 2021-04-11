@@ -1,5 +1,5 @@
 {
-  "name": "@ponday-dev/typesafe-i18n",
+  "name": "@ponday/typesafe-i18n",
   "version": "0.1.0-alpha",
   "description": "",
   "main": "./lib/index.js",
